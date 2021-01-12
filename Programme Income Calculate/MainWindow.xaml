@@ -1,0 +1,25 @@
+﻿<Window x:Class="Programme_Income_Calculate.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Programme_Income_Calculate"
+        mc:Ignorable="d"
+        Title="Chonlatorn" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtIncome" HorizontalAlignment="Left" Height="32" Margin="205,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="269" FontSize="16" VerticalContentAlignment="Center" TextChanged="txtIncome_TextChanged" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="txtExpenses" HorizontalAlignment="Left" Height="32" Margin="205,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="269" FontSize="16" VerticalContentAlignment="Center" TextChanged="txtExpenses_TextChanged" HorizontalContentAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Height="32" Margin="90,48,0,0" TextWrapping="Wrap" Text="รายได้" VerticalAlignment="Top" Width="80" FontSize="20" FontWeight="Bold" Padding="10,0,0,0"/>
+        <TextBlock HorizontalAlignment="Left" Height="32" Margin="90,96,0,0" TextWrapping="Wrap" Text="รายจ่าย" VerticalAlignment="Top" Width="80" FontSize="20" FontWeight="Bold" Padding="10,0,0,0"/>
+        <TextBlock HorizontalAlignment="Left" Height="32" Margin="474,48,0,0" TextWrapping="Wrap" Text="บาท / วัน" VerticalAlignment="Top" Width="102" FontSize="20" FontWeight="Bold" Padding="10,0,0,0"/>
+        <TextBlock HorizontalAlignment="Left" Height="32" Margin="474,96,0,0" TextWrapping="Wrap" Text="บาท / วัน" VerticalAlignment="Top" Width="102" FontSize="20" FontWeight="Bold" Padding="10,0,0,0"/>
+        <TextBlock HorizontalAlignment="Left" Height="32" Margin="90,148,0,0" TextWrapping="Wrap" Text="ราคาของที่อยากได้" VerticalAlignment="Top" Width="178" FontSize="20" FontWeight="Bold" Padding="10,0,0,0"/>
+        <TextBox x:Name="txtNeed" HorizontalAlignment="Left" Height="32" Margin="273,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="269" FontSize="16" VerticalContentAlignment="Center" TextChanged="txtNeed_TextChanged" HorizontalContentAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Height="32" Margin="547,148,0,0" TextWrapping="Wrap" Text="บาท" VerticalAlignment="Top" Width="60" FontSize="20" FontWeight="Bold" Padding="10,0,0,0"/>
+        <Button Content="คำนวณ" HorizontalAlignment="Left" Height="50" Margin="90,202,0,0" VerticalAlignment="Top" Width="122" Click="Button_Click"/>
+        <TextBox x:Name="txtSaving" HorizontalAlignment="Left" Height="32" Margin="436,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="269" FontSize="16" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" IsReadOnly="True" TextChanged="txtSaving_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Height="32" Margin="227,210,0,0" TextWrapping="Wrap" Text="คุณต้องเก็บเงินทั้งหมด" VerticalAlignment="Top" Width="204" FontSize="20" FontWeight="Bold" Padding="10,0,0,0"/>
+        <TextBlock HorizontalAlignment="Left" Height="32" Margin="705,211,0,0" TextWrapping="Wrap" Text="วัน" VerticalAlignment="Top" Width="50" FontSize="20" FontWeight="Bold" Padding="10,0,0,0" RenderTransformOrigin="0.5,0.5"/>
+
+    </Grid>
+</Window>

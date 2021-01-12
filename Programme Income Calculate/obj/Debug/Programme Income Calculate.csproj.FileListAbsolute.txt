@@ -1,0 +1,15 @@
+D:\Project\Dev Learning Project\Programme Income Calculate\bin\Debug\Programme Income Calculate.exe.config
+D:\Project\Dev Learning Project\Programme Income Calculate\bin\Debug\Programme Income Calculate.exe
+D:\Project\Dev Learning Project\Programme Income Calculate\bin\Debug\Programme Income Calculate.pdb
+D:\Project\Dev Learning Project\Programme Income Calculate\obj\Debug\Programme Income Calculate.csprojAssemblyReference.cache
+D:\Project\Dev Learning Project\Programme Income Calculate\obj\Debug\MainWindow.g.cs
+D:\Project\Dev Learning Project\Programme Income Calculate\obj\Debug\App.g.cs
+D:\Project\Dev Learning Project\Programme Income Calculate\obj\Debug\Programme Income Calculate_MarkupCompile.cache
+D:\Project\Dev Learning Project\Programme Income Calculate\obj\Debug\Programme Income Calculate_MarkupCompile.lref
+D:\Project\Dev Learning Project\Programme Income Calculate\obj\Debug\MainWindow.baml
+D:\Project\Dev Learning Project\Programme Income Calculate\obj\Debug\Programme Income Calculate.g.resources
+D:\Project\Dev Learning Project\Programme Income Calculate\obj\Debug\Programme_Income_Calculate.Properties.Resources.resources
+D:\Project\Dev Learning Project\Programme Income Calculate\obj\Debug\Programme Income Calculate.csproj.GenerateResource.cache
+D:\Project\Dev Learning Project\Programme Income Calculate\obj\Debug\Programme Income Calculate.csproj.CoreCompileInputs.cache
+D:\Project\Dev Learning Project\Programme Income Calculate\obj\Debug\Programme Income Calculate.exe
+D:\Project\Dev Learning Project\Programme Income Calculate\obj\Debug\Programme Income Calculate.pdb
